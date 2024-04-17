@@ -1,0 +1,17 @@
+:host {
+   display: flex;
+   flex-direction: row;
+}
+
+.side-bar {
+  width: 3rem;
+  background-color: black;
+  margin-right: .2rem;
+  flex-shrink: 0;
+}
+
+:host ::ng-deep router-outlet + * {
+  height: 100%;
+  flex-grow: 1;
+  border: 1;
+}

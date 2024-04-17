@@ -1,0 +1,167 @@
+<form class="filter-form">
+  <label class="form-label" id="projectDetailsLabel">Project</label>
+  <input type="text" class="form-control" placeholder="Enter project name or description" aria-label="Project Name" aria-describedby="projectDetailsLabel">
+  <label for="yearFilter" class="form-label">Year</label>
+  <select id="yearFilter" class="form-control">
+    <option value="">All</option>
+    <option value="2024">2024</option>
+  </select>
+  <label for="lobFilter" class="form-label">LoB</label>
+  <select id="lobFilter" class="form-control">
+    <option value="">All</option>
+    <option value="Credit">Credit</option>
+    <option value="Funding">Funding</option>
+    <option value="Treasury">Treasury</option>
+    <option value="Branch">Branch</option>
+    <option value="TPM">TPM</option>
+    <option value="Contact Center">Contact Center</option>
+    <option value="Collections">Collections</option>
+  </select>
+  <button type="submit" class="btn-filter">Filter</button>
+</form>
+
+
+<div class="project-list">
+<div class="project" (click)="gotoCBA()">
+    <h2>Banking System Upgrade</h2>
+    <p>Upgrade the core banking system to improve performance and security.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Credit</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Mobile Banking App Development</h2>
+    <p>Develop a mobile banking application for customers to access their accounts on the go.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Funding</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>ATM Network Expansion</h2>
+    <p>Expand the ATM network to provide better coverage in rural areas.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Treasury</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Online Account Management Portal</h2>
+    <p>Create an online portal for customers to manage their accounts and transactions.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Branch</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Biometric Authentication Implementation</h2>
+    <p>Implement biometric authentication for enhanced security in banking transactions.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Technology & Process Management (TPM)</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Customer Service Chatbot Integration</h2>
+    <p>Integrate a chatbot for customer service inquiries and support.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Contact Center</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Blockchain Technology Adoption</h2>
+    <p>Explore and adopt blockchain technology for secure and transparent transactions.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Collections</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Automated Loan Approval System</h2>
+    <p>Develop a system for automated loan approvals based on predefined criteria.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Credit Operations</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Financial Education Workshops</h2>
+    <p>Conduct workshops to educate customers on financial literacy and planning.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Network Operations</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Data Analytics for Customer Insights</h2>
+    <p>Utilize data analytics to gain insights into customer behavior and preferences.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Finance & Accounting</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Green Banking Initiatives</h2>
+    <p>Implement eco-friendly practices and initiatives in banking operations.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Process Management</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Virtual Reality Banking Experience</h2>
+    <p>Provide customers with a virtual reality experience for banking services.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Human Capital</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Robo-Advisory Services</h2>
+    <p>Offer automated investment advice through robo-advisory services.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Credit</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Enhanced Fraud Detection System</h2>
+    <p>Enhance fraud detection capabilities to protect customer accounts.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Funding</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Financial Inclusion Campaign</h2>
+    <p>Launch a campaign to promote financial inclusion among underserved communities.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Treasury</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Smart Branch Design Implementation</h2>
+    <p>Implement smart design elements in bank branches for improved customer experience.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Branch</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>AI-Powered Personalized Banking</h2>
+    <p>Provide personalized banking services using artificial intelligence technology.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Technology & Process Management (TPM)</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Mobile Wallet Integration</h2>
+    <p>Integrate mobile wallet functionality for convenient payments and transfers.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Contact Center</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Cybersecurity Training Program</h2>
+    <p>Conduct cybersecurity training programs for employees to enhance data protection.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Collections</div>
+  </div>
+  
+  <div class="project" (click)="gotoCBA()">
+    <h2>Community Financial Literacy Events</h2>
+    <p>Organize events to promote financial literacy and awareness in the community.</p>
+    <div class="year">2024</div>
+    <div class="LoB">Credit Operations</div>
+  </div>
+</div>
+
+
+

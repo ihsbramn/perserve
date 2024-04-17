@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+    width: 75%;
+}
+
+form {
+
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+  flex-grow: 1;
+  font-weight: 500;
+
+  input {
+    margin-bottom: .5rem;  
+  }
+
+}
+

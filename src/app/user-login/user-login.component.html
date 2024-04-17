@@ -1,0 +1,10 @@
+<img src="https://source.unsplash.com/featured/?work" alt="Random project image">
+<form>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" required [(ngModel)]="username">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required [(ngModel)]="password">
+    <button type="submit" (click)="doLogin()">Login</button>
+</form>
+
+

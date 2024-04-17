@@ -1,0 +1,136 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: .5rem;
+
+  .action-bar {
+
+    display: flex;
+    flex-direction: row;
+    padding-bottom: .2rem;
+
+    .action {
+
+      background-color: #ddd;
+      border-radius: .25rem;
+      padding: .3rem;
+      width: 5rem;
+      text-align: center;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all ease .5s;
+
+    }
+
+    .action:hover {
+      background-color: #999;
+    }
+
+    .gap {
+      flex-grow: 1;
+    }
+
+
+  }
+
+  .sheet {
+
+    flex-grow: 1;
+    box-sizing: border-box;
+
+    table {
+
+      width: 100%;
+      flex-grow: 1;
+      border-collapse: collapse;
+      text-align: left;
+      border: 1px solid #ddd;
+
+      .total {
+          font-weight: 500;
+          background-color: #f0f0f0;
+      }
+
+      tr {
+
+        th {
+          text-align: center;
+          font-weight: 500;
+          background-color: #f0f0f0;
+          padding-top: .2rem;
+          padding-bottom: .2rem;
+        }
+
+        td {
+          padding-left: 4px;
+          padding-right: 4px;
+          border: 1px solid #ddd;
+          input {
+            border: none;
+            background-color: transparent;
+            width: 100%;
+          }
+        input[type='number'] {
+          text-align: right;
+        }
+        }
+
+        td[rowspan] {
+          background-color: #f0f8ff;
+        }
+
+        .amount {
+          text-align: right;
+        }
+
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      tfoot td {
+        font-weight: 500;
+        text-align: right;
+        background-color: #f0f0f0;
+      }
+      
+    }
+
+  }
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  height: 2rem;
+  flex-shrink: 0;
+
+  div {
+    margin-right: .25rem;
+    background-color: #ddd;
+    padding: .5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  
+  }
+
+  div:hover {
+    background-color: #e8f4fd;
+  }
+
+}
+
+.hide {
+  display: none;
+}
